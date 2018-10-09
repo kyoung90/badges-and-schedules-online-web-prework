@@ -10,12 +10,6 @@ def badge_maker(name)
 end 
 
 def assign_rooms(names)
-  newArray = []
-  for i in (0..names.size-1)
-    newArray[i] = "Hello, #{names[i]}! You'll be assigned to room #{i+1}!"
-  end
-  return newArray
-  
   counter = 0
   names.collect do |ele|
     counter += 1
