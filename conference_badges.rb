@@ -25,7 +25,7 @@ def printer(names)
   
   badges.each_with_index do |ele, index|
     puts "#{ele}"
-    puts "#{rooms[index}"
+    puts "#{rooms[index]}"
   end 
   
 end 
