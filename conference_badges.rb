@@ -16,8 +16,10 @@ def assign_rooms(names)
   end
   return newArray
   
+  counter = 0
   names.collect do |ele|
-    ele = "Hello, #{ele}! You'll be assigned to room "
+    counter += 1
+    ele = "Hello, #{ele}! You'll be assigned to room #{counter}"
   end 
 end 
 
