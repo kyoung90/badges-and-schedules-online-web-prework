@@ -1,10 +1,8 @@
 # Write your code here.
 def batch_badge_creator(names)
-
   names.collect do |ele|
     ele = badge_maker(ele)
   end
-  
 end 
 
 def badge_maker(name)
