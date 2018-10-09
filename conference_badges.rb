@@ -15,6 +15,10 @@ def assign_rooms(names)
     newArray[i] = "Hello, #{names[i]}! You'll be assigned to room #{i+1}!"
   end
   return newArray
+  
+  names.collect do |ele|
+    ele = "Hello, #{ele}! You'll be assigned to room "
+  end 
 end 
 
 def printer(names)
