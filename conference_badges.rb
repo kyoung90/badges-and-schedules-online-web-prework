@@ -1,10 +1,10 @@
 # Write your code here.
 def batch_badge_creator(names)
-  newArray = []
-  for i in (0..names.size-1)
-    newArray[i] = badge_maker(names[i])
-  end 
-  return newArray
+
+  names.collect do |ele|
+    ele = badge_maker(ele)
+  end
+  
 end 
 
 def badge_maker(name)
